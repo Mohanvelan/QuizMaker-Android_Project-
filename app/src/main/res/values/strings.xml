@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyProject</string>
+
+    <string name="featured">Featured Subjects</string>
+    <string name="suggested">Suggested</string>
+
+    <string name="home">Home</string>
+    <string name="tests">Tests</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="my_list_arr1">
+        <item>MyProfile</item>
+        <item>Privacy Policy</item>
+        <item>Feedback</item>
+        <item>Version details</item>
+        <item>SignOut</item>
+        <item>About</item>
+    </string-array>
+    <string name="title_activity_test_page">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+
+
+</resources>

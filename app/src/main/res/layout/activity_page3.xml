@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:context=".Page3Activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        app:cardCornerRadius="15dp">
+
+                        <TextView
+                            android:id="@+id/newtext1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="#2196F3"
+                            android:fontFamily="sans-serif-condensed"
+                            android:lineSpacingExtra="2dp"
+                            android:padding="5dp"
+                            android:paddingTop="10dp"
+                            android:text="| INSTRUCTIONS"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="#FFFFFF"
+                            android:paddingTop="12dp"
+                            app:srcCompat="@android:drawable/ic_menu_compass" />
+
+                        <TextView
+                            android:id="@+id/it1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:paddingTop="3dp"
+                            android:text="TextView"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"
+                            android:typeface="sans" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:paddingTop="12dp"
+                            app:srcCompat="@android:drawable/ic_menu_compass" />
+
+                        <TextView
+                            android:id="@+id/it2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="3dp"
+                            android:text="TextView"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"
+                            android:typeface="sans" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:paddingTop="12dp"
+                            app:srcCompat="@android:drawable/ic_menu_compass" />
+
+                        <TextView
+                            android:id="@+id/it3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="3dp"
+                            android:text="TextView"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"
+                            android:typeface="sans" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:paddingTop="12dp"
+                            app:srcCompat="@android:drawable/ic_menu_compass" />
+
+                        <TextView
+                            android:id="@+id/it4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="3dp"
+                            android:text="TextView"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic"
+                            android:typeface="sans" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        app:cardCornerRadius="15dp">
+
+                        <TextView
+                            android:id="@+id/newtext2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:background="#009688"
+                            android:fontFamily="sans-serif-condensed"
+                            android:lineSpacingExtra="2dp"
+                            android:padding="5sp"
+                            android:paddingLeft="5sp"
+                            android:text="| TEST DETAILS"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:paddingLeft="15sp"
+                                android:text="Topic :"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                tools:text="Topic :" />
+
+                            <TextView
+                                android:id="@+id/it5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="15sp"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                android:text="No of Questions :" />
+
+                            <TextView
+                                android:id="@+id/it6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="15sp"
+                                android:text="Timings :"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                 />
+
+                            <TextView
+                                android:id="@+id/it7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="15sp"
+                                android:text="Ques Type :"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                 />
+
+                            <TextView
+                                android:id="@+id/it8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/startButton"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+                    android:bottomLeftRadius='15dp'
+                    android:bottomRightRadius='15dp'
+                    android:text="Start Test"
+                    android:textColor="#FFFFFF"
+                    android:topLeftRadius='15dp'
+                    android:topRightRadius='15dp' />
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/botnav1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_gravity="bottom"
+        app:itemBackground="@android:color/background_dark"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="BottomAppBar,MissingConstraints"/>
+
+
+</LinearLayout>

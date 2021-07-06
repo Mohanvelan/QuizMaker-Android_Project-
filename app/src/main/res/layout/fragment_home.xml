@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        tools:context=".HomeFragment">
+
+        <TextView
+            android:id="@+id/thead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Welcome to TestEngine :)"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:typeface="sans"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="8sp"
+                android:textSize="16sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="3dp"
+                android:background="?android:attr/listDivider"></View>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"></ListView>
+
+        <TextView
+            android:id="@+id/tm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:text="More..."
+            android:textColor="#2196F3"
+            android:textSize="15dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="7dp"
+                android:textSize="16sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="13sp"
+                android:layout_marginTop="3sp"
+                android:background="?android:attr/listDivider"></View>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv2"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"></ListView>
+
+        <TextView
+            android:id="@+id/tm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginRight="0dp"
+            android:text="More..."
+            android:textColor="#2196F3"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>

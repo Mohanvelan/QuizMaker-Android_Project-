@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#000000"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="SignUp Page"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        app:fontFamily="sans-serif-condensed-light"
+        app:lineHeight="30dp" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:hint="@string/username"
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email-id"/>
+
+    <EditText
+        android:id="@+id/mClass"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Standard"/>
+
+    <EditText
+        android:id="@+id/mAge"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Age"/>
+
+    <EditText
+        android:id="@+id/int_sub"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Interseted subject" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:password="true"
+        android:background="#ffffff"
+        android:hint="@string/password" />
+
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_width="206dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:password="true"
+        android:hint="@string/confirm_password" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="#04ea00"
+        android:text="@string/register"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/already_registered"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="login..."
+            android:textColor="#04ea00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

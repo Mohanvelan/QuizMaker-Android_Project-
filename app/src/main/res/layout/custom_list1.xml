@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ii"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:cropToPadding="false"
+        android:maxHeight="5sp"
+        android:paddingLeft="8sp"
+        android:paddingTop="3sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="10sp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_test"
+        app:tintMode="src_in"
+        tools:ignore="MissingClass" />
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:layout_marginLeft="10sp"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ttt"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16sp"
+            android:text="TextView"
+            android:textColor="#448DAE"
+            android:textSize="13dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>
